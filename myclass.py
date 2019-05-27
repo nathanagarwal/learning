@@ -16,4 +16,8 @@ class MyClass(object):
     def setName(self, name):
         self._name = name
 
+    def printSelf(self):
+        print("Age:", self._age)
+        print("Name:", self._name)
+
         
