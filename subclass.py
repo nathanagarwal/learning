@@ -6,7 +6,7 @@ class SubClass(MyClass):
     """
 
     def __init__(self, color = "Blue", age = 90, name = "Mul"):
-        super(SubClass, self, age, name)
+        super(SubClass, self).__init__(age, name)
         self._color = color
     
     def getColor(self):
